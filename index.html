@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<title>Formulario 1</title>
+<body>
+	<header>
+		<h1 align="center">Venta en línea</h1>
+	</header>
+	<section>
+		<form method="post" enctype="txt/plain">
+			<fieldset>
+				<legend>Información general</legend>
+				<table align="center">
+					<tbody>
+						<tr>
+							<td><label for="nombre">Nombre:</label></td>
+							<td><label for="paterno">Apellido paterno:</label></td>
+							<td><label for="materno">Apellido materno:</label><br></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="nombre" placeholder="Nombre" required=""></td>
+							<td><input type="text" name="paterno" placeholder="Apellido paterno"></td>
+							<td><input type="text" name="materno" placeholder="Apellido materno"></td>
+						</tr>
+						<tr>
+							<td><label for="usuario">Nombre de usuario:</label></td>
+							<td><label for="contraseña">Contraseña:</label></td>
+							<td><label for="nacimiento">Fecha de nacimiento:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="usuario" placeholder="Usuario" required=""></td>
+							<td><input type="password" name="contraseña" placeholder="Contraseña" required=""></td>
+							<td><input type="date" name="nacimiento"></td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Datos de facturación</legend>
+				<table align="center">
+					<tbody>
+						<tr>
+							<td><label for="pais">País:</label></td>
+							<td><label for="ciudad">Ciudad:</label></td>
+							<td><label for="calle">Calle:</label></td>
+						</tr>
+						<tr>
+							<td>
+								<select size="3" name="pais">
+ 									<option>México</option>
+ 									<option>Canadá</option> 
+									<option>E.U.A</option>
+ 									<option>Alemania</option>
+ 									<option>España</option>
+								</select>
+							</td>
+							<td>
+								<select size="3" name="ciudad">
+ 									<option>San Luis Potosí</option>
+ 									<option>Matehuala</option> 
+									<option>Cd. Valles</option>
+ 									<option>Rioverde</option>
+ 									<option>Villa de reyes</option>
+								</select>
+							</td>
+							<td><input type="text" name="calle" placeholder="Calle"></td>
+						</tr>
+						<tr>
+							<td><label for="numcasa">Número de casa:</label></td>
+							<td><label for="colonia">Colonia:</label></td>
+							<td><label for="email">E-mail:</label></td>
+						</tr>
+						<tr>
+							<td><input type="number" name="numcasa" placeholder="Número exterior"></td>
+							<td><input type="text" name="colonia" placeholder="Colonia"></td>
+							<td><input type="email" name="email" placeholder="E-mail" required=""></td>
+						</tr>
+						<tr>
+							<td><label for="rfc">R.F.C.:</label></td>
+							<td><label for="cp">C.P.:</label></td>
+							<td><input type="submit" value="Enviar">
+								<input type="reset" value="Restablecer">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="text" name="rfc" placeholder="R.F.C" required=""></td>
+							<td><input type="number" name="cp" placeholder="Código postal"></td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+		</form>			
+	</section>
+    <h3 align="right">Marzo,2022,UPSLP</h3>
+</body>
+</html>
